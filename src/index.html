@@ -17,9 +17,14 @@
 
     <a-entity id="a-bodies"></a-entity>
 
+    <a-entity geometry="primitive: plane; width: 2; height: auto" position="0 -10 .7w" rotation="55 0 0"
+      material="color: blue"
+      text="value: Welcome Astronaut!  Use WASD to fly around.\nThe center blue circle your 'cursor'.\n\nStare at the sun (turns green), and it will throw out some inner planets.">
+    </a-entity>
+
     <a-entity id="rig" position="0 -12 .5" rotation="55 0 0">
       <a-camera>
-        <a-cursor></a-cursor>
+        <a-cursor color="#4CC3D9" fuse="true" timeout="1"></a-cursor>
       </a-camera>
     </a-entity>
 
