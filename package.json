@@ -1,6 +1,6 @@
 {
-  "name": "n-body-wasm-canvas",
-  "description": "A n-body simulation, calculated with wasm, and visualized with canvas",
+  "name": "n-body-wasm-webvr",
+  "description": "A n-body simulation, calculated with wasm, and visualized with WebVR",
   "version": "1.0.0",
   "scripts": {
     "start": "http-server dist",
