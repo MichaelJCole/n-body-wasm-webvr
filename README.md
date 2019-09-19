@@ -1,8 +1,6 @@
 # n-body Wasm + Canvas Tech Demo
 
-[Live WebVR Demo](https://michaeljcole.github.io/n-body-wasm-webvr/)
-
-See also: [Mobile-ready 2d Canvas version](https://michaeljcole.github.io/n-body-wasm-canvas/)
+[Live 3d WebVR Demo](https://michaeljcole.github.io/n-body-wasm-webvr/) / [2d Canvas version](https://michaeljcole.github.io/n-body-wasm-canvas/)
 
 Hello, this is a tech demo for:
 - [WebVR with Aframe](https://aframe.io/docs/0.9.0/introduction/) - WebVR for visualization
