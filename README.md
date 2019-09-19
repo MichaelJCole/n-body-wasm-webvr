@@ -1,14 +1,14 @@
-# n-body Wasm + Canvas Tech Demo
+# n-body Wasm + WebVR Tech Demo
 
-[Live WebVR Demo](https://michaeljcole.github.io/n-body-wasm-webvr/)
+[Live 3d WebVR Demo](https://michaeljcole.github.io/n-body-wasm-webvr/) / [Live 2d Canvas Demo](https://michaeljcole.github.io/n-body-wasm-canvas/)
 
-See also: [Mobile-ready 2d Canvas version](https://michaeljcole.github.io/n-body-wasm-canvas/)
-
-Hello, this is a tech demo for:
+This was super fun!  Hello, this is my tech demo for:
 - [WebVR with Aframe](https://aframe.io/docs/0.9.0/introduction/) - WebVR for visualization
 - [Web Workers](https://www.html5rocks.com/en/tutorials/workers/basics/) - a separate thread to run our calculations
 - [WebAssembly (Wasm)](https://webassembly.org/) - a high performance web binary that allows execution of other languages on the web (C, C++, Rust, etc)
 - [AssemblyScript](https://docs.assemblyscript.org/) - a TypeScript subset that compiles to high-performance Wasm
+
+(This builds on the [2d Canvas version](https://github.com/MichaelJCole/n-body-wasm-webvr) by swapping the canvas visualiser for a webVR one)
 
 We'll apply this tech to the [n-body problem](https://en.wikipedia.org/wiki/N-body_problem).  This is an astro-physics problem famous for being numerical (solved by a program) instead of analytical (solved by equations).  This is a fork of [my original Canvas](https://michaeljcole.github.io/n-body-wasm-canvas/) version.
 
