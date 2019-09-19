@@ -1,0 +1,37 @@
+<!DOCTYPE>
+
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <a-scene id="a-pocket-universe">
+    <a-sky color="#222"></a-sky>
+
+    <a-entity geometry="primitive: circle; radius: 12" position="0 0 -.5"
+      material="color: #333; transparent: true; opacity: 0.5">
+      <a-sphere color="black" radius=".02"></a-sphere>
+    </a-entity>
+
+    <a-entity id="a-bodies"></a-entity>
+
+    <a-entity geometry="primitive: plane; width: 2; height: auto" position="0 -10 .7w" rotation="55 0 0"
+      material="color: blue"
+      text="value: Welcome Astronaut!  Use WASD to fly around.\nThe center blue circle your 'cursor'.\n\nStare at the sun (turns green), and it will throw out some inner planets.\n\nIf they fly away, don't be sad, you can make as many as your computer can process.">
+    </a-entity>
+
+    <a-entity id="rig" position="0 -12 .5" rotation="55 0 0">
+      <a-camera>
+        <a-cursor color="#4CC3D9" fuse="true" timeout="1"></a-cursor>
+      </a-camera>
+    </a-entity>
+
+  </a-scene>
+
+</body>
+
+</html>
