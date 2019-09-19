@@ -1,4 +1,4 @@
-# n-body Wasm + Canvas Tech Demo
+# n-body Wasm + WebVR Tech Demo
 
 [Live 3d WebVR Demo](https://michaeljcole.github.io/n-body-wasm-webvr/) / [Live 2d Canvas Demo](https://michaeljcole.github.io/n-body-wasm-canvas/)
 
