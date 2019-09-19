@@ -66,7 +66,7 @@ export class nBodyVisWebVR extends nBodyVisualizer {
   class="a-sim-body"
   dynamic-body 
   ${ (body.name === "star") ? "debris-listener event-set__enter='_event: mouseenter; color: green' event-set__leave='_event: mouseleave; color: yellow'" : ""} 
-  position="${body.x} ${body.y} ${body.z}" 
+  position="0 0 0" 
   radius="${body.drawSize/this.scaleSize}" 
   color="${body.color}">
 </a-sphere>`
@@ -78,14 +78,15 @@ export class nBodyVisWebVR extends nBodyVisualizer {
 	}
 }
 
-// Component to change to a sequential color on click.
+// Component to add new bodies when the user stares at the sun.  See HTML
 AFRAME.registerComponent('debris-listener', {
   init: function () {
     const self = this
     // Helper function
-    function rando(scale) {  return (Math.random()-.5) * scale }
+    function rando(scale) { return (Math.random()-.5) * scale }
+
+    // Add 10 new bodies
     this.el.addEventListener('click', function (evt) {
-      //console.log('I was clicked at: ', evt.detail.intersection.point);
       for (let x=0; x<10; x++) {
         window.sim.addBodyArgs("debris", "white", rando(10), rando(10), rando(10), 1, rando(.1), rando(.1), rando(.1))
       }
