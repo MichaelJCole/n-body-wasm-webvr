@@ -8,7 +8,7 @@ This was super fun!  Hello, this is my tech demo for:
 - [WebAssembly (Wasm)](https://webassembly.org/) - a high performance web binary that allows execution of other languages on the web (C, C++, Rust, etc)
 - [AssemblyScript](https://docs.assemblyscript.org/) - a TypeScript subset that compiles to high-performance Wasm
 
-(This builds on the [2d Canvas version](https://github.com/MichaelJCole/n-body-wasm-webvr) by swapping the canvas visualiser for a webVR one)
+(This builds on the [2d Canvas version](https://github.com/MichaelJCole/n-body-wasm-webvr) by swapping the Canvas visualiser for a WebVR one)
 
 We'll apply this tech to the [n-body problem](https://en.wikipedia.org/wiki/N-body_problem).  This is an astro-physics problem famous for being numerical (solved by a program) instead of analytical (solved by equations).  This is a fork of [my original Canvas](https://michaeljcole.github.io/n-body-wasm-canvas/) version.
 
