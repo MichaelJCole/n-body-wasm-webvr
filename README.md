@@ -65,9 +65,9 @@ index.html
   |
 main.js
   |
-nBodySystem.js-----(web worker------workerWasm.js
-  |              message passing)     |
-(draws to)                          nBodyForces.wasm
+nBodySimulator.js-----(web worker------workerWasm.js
+  |                 message passing)     |
+(draws to)                             nBodyForces.wasm
   |
 nBodyVisualizer.js
   |
