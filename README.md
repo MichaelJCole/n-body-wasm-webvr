@@ -101,5 +101,3 @@ package.json                 -  Package versions and npm run commands
 package-lock.json            -  Future proofs package installation
 README.md                    -  Turtles all the way down
 ```
-
-[Need code?  Have money?  Hire Me!](https://github.com/MichaelJCole/_code_resume)
